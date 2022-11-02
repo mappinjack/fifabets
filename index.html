@@ -1,49 +1,43 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Jack Forsyth</title>
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<link rel="icon" href="favicon.ico" type="image/x-icon">
-		<link rel="stylesheet" href="css/style.css" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-		<style>
 
-		      * {
-				  -webkit-box-sizing: border-box;
-				          box-sizing: border-box;
-				}
+<html class="no-js" lang="en">
 
-			body {
-			  font-family: 'Raleway', sans-serif;
-			  background: #F9F8F8;
-			}
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121197998-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-			header.header {
-			  position: absolute;
-			  top: 50%;
-			  left: 0;
-			  width: 100%;
-			  -webkit-transform: translateY(-50%);
-			          transform: translateY(-50%);
-			}
-				header.header h1 {
-					    font-size: 50px;
-				    font-size: 6.5vw;
+		gtag('config', 'UA-121197998-1');
+	</script>
+	<meta charset="utf-8">
+	<meta content="ie=edge" http-equiv="x-ua-compatible">
+	<title>Gabin's Fifa Pool</title>
+	<meta content="Keep track of who's doing well and how badly France is losing" name="description">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="favicon.ico" rel="shortcut icon">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<script src="https://www.google.com/jsapi" type="text/javascript"></script>
+</head>
 
-				  color: #222222;
-				  text-align: center;
-				  margin-top: 0;
-				  text-transform: uppercase;
-				  font-weight: 900;
-				}
-    
-</style>
-	</head>
-	</body>
-<header class="header">
-	<h1>Jack  Forsyth</h1>
-</header>
+<body id="background">
+	<div id="box">
+		<h1>FIFA Bets and Jests: Qatar 2022</h1>
+		<div>
+			<a href="https://www.scheduleworld.co/2022-fifa-world-cup-results">Match results</a>
+		</div>
 
-	</body>
+		<br>
+
+		<script src="js/google-sheets-html.js" type="text/javascript"></script>
+		<div id="leaderboard">
+		</div>
+		<p class="small"></p>
+	</div>
+</body>
+
 </html>
